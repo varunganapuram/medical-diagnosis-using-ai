@@ -162,12 +162,3 @@ Training feature order, source references, preprocessing, split sizes, and
 metrics are recorded in `Models/training_report.json`. Downloaded file checksums
 are recorded in `Models/dataset_checksums.json`. Respect each dataset's own terms;
 the lung dataset's license includes a noncommercial restriction.
-
-## Acknowledgments
-
-This project adapts the interface and exploratory notebooks from
-[Sainikith's AI-Powered Medical Diagnosis System](https://github.com/sainikith07/AI-POWERED-MEDICAL-DIAGNOSIS-SYSTEM).
-This version adds rebuilt models, reproducible training, corrected input
-encodings, validation, and application checks. Original source and dataset
-attributions are retained here; no blanket license is asserted for third-party
-materials.
