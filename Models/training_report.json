@@ -1,0 +1,192 @@
+{
+  "diabetes": {
+    "source": "https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv",
+    "features": [
+      "Pregnancies",
+      "Glucose",
+      "BloodPressure",
+      "SkinThickness",
+      "Insulin",
+      "BMI",
+      "DiabetesPedigreeFunction",
+      "Age"
+    ],
+    "rows_after_deduplication": 768,
+    "train_rows": 614,
+    "test_rows": 154,
+    "test_accuracy": 0.7597402597402597,
+    "balanced_accuracy": 0.7042592592592593,
+    "majority_baseline_accuracy": 0.6493506493506493,
+    "confusion_matrix": [
+      [
+        89,
+        11
+      ],
+      [
+        26,
+        28
+      ]
+    ],
+    "split": "stratified, seed=2",
+    "positive_label": "dataset disease label=1",
+    "sklearn_version": "1.9.1",
+    "clinical_validation": false
+  },
+  "heart_disease": {
+    "source": "Supplied heart_disease_data.csv and Heart_Disease_Prediction.ipynb",
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "rows_after_deduplication": 270,
+    "train_rows": 216,
+    "test_rows": 54,
+    "test_accuracy": 0.7962962962962963,
+    "balanced_accuracy": 0.7958333333333334,
+    "majority_baseline_accuracy": 0.5555555555555556,
+    "confusion_matrix": [
+      [
+        24,
+        6
+      ],
+      [
+        5,
+        19
+      ]
+    ],
+    "split": "stratified, seed=2",
+    "positive_label": "dataset disease label=1",
+    "sklearn_version": "1.9.1",
+    "clinical_validation": false
+  },
+  "parkinsons": {
+    "source": "https://archive.ics.uci.edu/dataset/174/parkinsons",
+    "features": [
+      "MDVP:Fo(Hz)",
+      "MDVP:Fhi(Hz)",
+      "MDVP:Flo(Hz)",
+      "MDVP:Jitter(%)",
+      "MDVP:Jitter(Abs)",
+      "MDVP:RAP",
+      "MDVP:PPQ",
+      "Jitter:DDP",
+      "MDVP:Shimmer",
+      "MDVP:Shimmer(dB)",
+      "Shimmer:APQ3",
+      "Shimmer:APQ5",
+      "MDVP:APQ",
+      "Shimmer:DDA",
+      "NHR",
+      "HNR",
+      "RPDE",
+      "DFA",
+      "spread1",
+      "spread2",
+      "D2",
+      "PPE"
+    ],
+    "rows_after_deduplication": 195,
+    "train_rows": 152,
+    "test_rows": 43,
+    "test_accuracy": 0.7906976744186046,
+    "balanced_accuracy": 0.7016129032258065,
+    "majority_baseline_accuracy": 0.7209302325581395,
+    "confusion_matrix": [
+      [
+        6,
+        6
+      ],
+      [
+        3,
+        28
+      ]
+    ],
+    "split": "subject-disjoint, stratified by subject label, seed=2",
+    "positive_label": "dataset disease label=1",
+    "sklearn_version": "1.9.1",
+    "clinical_validation": false
+  },
+  "lung_cancer": {
+    "source": "https://huggingface.co/datasets/nateraw/lung-cancer/tree/fdb36446ab5c4d5dbb392517aec7aa755e9a8a51",
+    "features": [
+      "GENDER",
+      "AGE",
+      "SMOKING",
+      "YELLOW_FINGERS",
+      "ANXIETY",
+      "PEER_PRESSURE",
+      "CHRONIC_DISEASE",
+      "FATIGUE",
+      "ALLERGY",
+      "WHEEZING",
+      "ALCOHOL_CONSUMING",
+      "COUGHING",
+      "SHORTNESS_OF_BREATH",
+      "SWALLOWING_DIFFICULTY",
+      "CHEST_PAIN"
+    ],
+    "rows_after_deduplication": 276,
+    "train_rows": 220,
+    "test_rows": 56,
+    "test_accuracy": 0.9285714285714286,
+    "balanced_accuracy": 0.8020833333333333,
+    "majority_baseline_accuracy": 0.8571428571428571,
+    "confusion_matrix": [
+      [
+        5,
+        3
+      ],
+      [
+        1,
+        47
+      ]
+    ],
+    "split": "stratified, seed=2",
+    "positive_label": "dataset disease label=1",
+    "sklearn_version": "1.9.1",
+    "clinical_validation": false
+  },
+  "thyroid": {
+    "source": "https://archive.ics.uci.edu/dataset/102/thyroid+disease",
+    "features": [
+      "age",
+      "sex",
+      "on_thyroxine",
+      "TSH",
+      "T3_measured",
+      "T3",
+      "TT4"
+    ],
+    "rows_after_deduplication": 3683,
+    "train_rows": 2946,
+    "test_rows": 737,
+    "test_accuracy": 0.966078697421981,
+    "balanced_accuracy": 0.8081356965110964,
+    "majority_baseline_accuracy": 0.921302578018996,
+    "confusion_matrix": [
+      [
+        676,
+        3
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "split": "stratified, seed=2",
+    "positive_label": "any non-negative allhypo class, including compensated hypothyroid",
+    "sklearn_version": "1.9.1",
+    "clinical_validation": false
+  }
+}
